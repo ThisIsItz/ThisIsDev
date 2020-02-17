@@ -1,0 +1,85 @@
+---
+published: false
+title: "Git basics"
+cover_image: "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/master/blog-posts/NAME-OF-YOUR-BLOG-POST/assets/your-asset.png"
+description: ""
+tags: git
+series:
+canonical_url:
+---
+
+# Git basics
+
+## What is git?
+Git is a Version Control System. It means that git is going to help you to store and manage all the changes that you make to your file or project through the time. To do this, git works with repositories, and you have to commit those changes. Git runs on your local machine so you don’t need to have internet connection. 
+
+## How to start using git
+First of all, you need to install Git on your local computer. You can download it from [its website.](https://git-scm.com/)
+When you have already installed Git, you have to get into your Project folder 
+```
+cd projectFolder
+```
+and run the command 
+``` 
+git init 
+```
+
+This command will initialize a Git repository in this directory.
+
+## What is a repository?
+A repository contains all the history of changes. It contains all the files managed by git. There are three principal local states related to files managed by git:
+-	Working directory
+-	Staging area
+-	Git repository
+
+Working directory is the directory in our computer which holds all our application files and folders.
+Git repository contains all the changes that we save in git, that are finalized and uploaded by a commit.
+The staging area is in between, is a holding area, a kind of queue when we are waiting for the changes for the next commit.
+
+The remote state is another repository. You can use git without a remote repository but (GITHUB)
+
+## So, how can I add the changes that I’ve made to the staging area?
+Simply, using the next command.
+```
+git add myFile.txt
+```
+You can use this command followed by the name of the file that you want to add to this area or you can use a NOSEQUE that allows us to add all the files at the same time. This is
+```
+git add .
+```
+We haven't committed our changes yet. In this area, you can move the files in and out without modify the git repository and review all the changes you have made before committing.
+
+## Committing changes
+Once we have our files in the staging area we can save them in our git repo. We'll have to use another command:
+```
+git commit -m "Commit message"
+```
+
+When we make a commit, we are going to save the changes in all files that were in the staging area.
+Commit messages are messages that we add to our commits to describe which kind of changes you have done. These messages have to be 
+
+## How could I know in which state my files are?
+Using the next command
+```
+git status
+```
+Shows all changes made both in your working directory and staging area so we can handle them.
+
+## Can I see all the commits I have made?
+
+Yes! There is a command that outputs the history of changes. We have to use:
+``` 
+git log 
+```
+
+This returns to us very important information about our commit history, like the ID of the commits, the author, the date and where is the head.
+It maybe looks a little confusing if you have multiples commits, but there are a few AÑADIDOS that you can use to have a better vision of this log. My favorite one is: 
+```
+git log --all --decorate --oneline --graph
+```
+
+This one, in particular, draws a graphical representation in one line and it's very visual. Try it yourself!
+
+# Found a typo?
+
+If you've found a typo, a sentence that could be improved or anything else that should be updated on this blog post, you can access it through a git repository and make a pull request. Instead of posting a comment, please go directly to <REPO URL> and open a new pull request with your changes.
