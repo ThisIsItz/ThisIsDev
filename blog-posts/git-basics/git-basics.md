@@ -19,7 +19,12 @@ When you have already installed Git, you have to get into your Project folder
 ```
 cd projectFolder
 ```
-and run the command 
+or you can create an empty directory for your project using
+```
+mkdir projectFolder
+```
+
+and then, run the command 
 ``` 
 git init 
 ```
@@ -43,7 +48,7 @@ Simply, using the next command.
 ```
 git add myFile.txt
 ```
-You can use this command followed by the name of the file that you want to add to this area or you can use a NOSEQUE that allows us to add all the files at the same time. This is
+You can use this command followed by the name of the file that you want to add to this area or you can use a folder path that allows us to add all the files at the same time. This is
 ```
 git add .
 ```
@@ -73,7 +78,7 @@ git log
 ```
 
 This returns to us very important information about our commit history, like the ID of the commits, the author, the date and where is the head.
-It maybe looks a little confusing if you have multiples commits, but there are a few AÑADIDOS that you can use to have a better vision of this log. My favorite one is: 
+It maybe looks a little confusing if you have multiples commits, but there are a few options that you can use to have a better vision of this log. My favorite one is: 
 ```
 git log --all --decorate --oneline --graph
 ```
@@ -82,4 +87,4 @@ This one, in particular, draws a graphical representation in one line and it's v
 
 # Found a typo?
 
-If you've found a typo, a sentence that could be improved or anything else that should be updated on this blog post, you can access it through a git repository and make a pull request. Instead of posting a comment, please go directly to <REPO URL> and open a new pull request with your changes.
+If you've found a typo, a sentence that could be improved or anything else that should be updated on this blog post, you can access it through a git repository and make a pull request. Instead of posting a comment, please go directly to [my git repository](https://github.com/ThisIsItz/ThisIsDev) and open a new pull request with your changes.
