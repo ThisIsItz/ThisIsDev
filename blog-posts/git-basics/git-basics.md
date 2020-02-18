@@ -61,14 +61,14 @@ git commit -m "Commit message"
 ```
 
 When we make a commit, we are going to save the changes in all files that were in the staging area.
-Commit messages are messages that we add to our commits to describe which kind of changes you have done. These messages have to be 
+Commit messages are messages that we add to our commits to describe which kind of changes you have done. These messages have to be simples.
 
-## How could I know in which state my files are?
+## How could I know the state of my repository?
 Using the next command
 ```
 git status
 ```
-Shows all changes made both in your working directory and staging area so we can handle them.
+Shows the status in both the working directory and staging area. It helps us to see in which state are the files you have modified so we can handle them.
 
 ## Can I see all the commits I have made?
 
