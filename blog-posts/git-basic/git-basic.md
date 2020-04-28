@@ -1,7 +1,7 @@
 ---
 published: false
 title: "Git basics"
-cover_image: "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/master/blog-posts/NAME-OF-YOUR-BLOG-POST/assets/your-asset.png"
+cover_image: "https://www.hostinger.es/tutoriales/wp-content/uploads/sites/7/2017/04/comandos-de-git.png"
 description: ""
 tags: git
 series:
