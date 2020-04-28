@@ -43,7 +43,7 @@ The most common situation is when you merge only two branches. You can use
 git merge my-branch
 ```
 
-Using this you were mergin "my-branch" branch into the current branch.
+Using this you were merging "my-branch" branch into the current branch.
 If the two branches you try to merge both have change the same part of the code, Git won't be able to know which version to keep and he will stop the merge, asking you to resolve the conflict manually. You can also use a tool to do this.
 
 ## Git on remote
