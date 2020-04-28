@@ -48,7 +48,7 @@ If the two branches you try to merge both have change the same part of the code,
 
 ## Git on remote
 
-Git works really fine on local, but it also works on remote. It is really helpfull when we are working on a team, and more persons are working on the same project. There are some platforms like Github or Bitbucked in which you can store a remote repository.
+Git works really fine on local, but it also works on remote. It is really helpful when we are working on a team, and more persons are working on the same project. There are some platforms like Github or Bitbucked in which you can store a remote repository.
 
 ## How can I save my changes in the remote repository?
 
@@ -69,7 +69,7 @@ You can copy an existing repository and cloning into your local machine, creatin
 git clone https://www.github.com/username/repo-name
 ```
 
-with the url of the repository that you want to clone into your computer.
+with the URL of the repository that you want to clone into your computer.
 
 # But there is more...
 
