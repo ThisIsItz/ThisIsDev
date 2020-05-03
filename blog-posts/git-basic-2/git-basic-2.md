@@ -50,6 +50,8 @@ If the two branches you try to merge both have change the same part of the code,
 
 Git works really fine on local, but it also works on remote. It is really helpful when we are working on a team, and more persons are working on the same project. There are some platforms like Github or Bitbucked in which you can store a remote repository.
 
+The remote state is another repository, is a version of your project that is hosted on the internet. There are some repository hosting services, like [Github](https://github.com), that helps you manage your remote repositories. If you want to know why it is useful, I will talk about it on my next post. //// TODO: AÑADIR ////
+
 ## How can I save my changes in the remote repository?
 
 You need to push them. Using the next command
