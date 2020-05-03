@@ -51,7 +51,7 @@ Working directory is the directory in our computer which holds all our applicati
 Git repository contains all the changes that we save in git, that are finalized and uploaded by a commit.
 The staging area is in between, is a holding area, a kind of queue when we are waiting for the changes for the next commit.
 
-The remote state is another repository. You can use git without a remote repository but (GITHUB)
+The remote state is another repository, is a version of your project that is hosted on the internet. There are some repository hosting services, like Github, that provides helps you manage your remote repositories. However, you can use git without a remote repository at all.
 
 ## So, how can I add the changes that I’ve made to the staging area?
 
