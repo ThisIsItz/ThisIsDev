@@ -1,7 +1,7 @@
 ---
 published: true
 title: "Git basics"
-cover_image: "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/master/blog-posts/NAME-OF-YOUR-BLOG-POST/assets/your-asset.png"
+cover_image: "https://raw.githubusercontent.com/ThisIsItz/ThisIsDev/master/blog-posts/git-basic/assets/git.png"
 description: ""
 tags: git, begginers, tutorial
 series:
@@ -50,8 +50,6 @@ A repository contains all the history of changes. It contains all the files mana
 Working directory is the directory in our computer which holds all our application files and folders.
 Git repository contains all the changes that we save in git, that are finalized and uploaded by a commit.
 The staging area is in between, is a holding area, a kind of queue when we are waiting for the changes for the next commit.
-
-The remote state is another repository. You can use git without a remote repository but (GITHUB)
 
 ## So, how can I add the changes that I’ve made to the staging area?
 
@@ -106,10 +104,6 @@ git log --all --decorate --oneline --graph
 ```
 
 This one, in particular, draws a graphical representation in one line and it's very visual. Try it yourself!
-
-# I want to know more
-
-In this post are the basics about git, but there is more to learn, like branches, merge, and other things. You can visit [this post](URL) to keep learning more about git.
 
 # Found a typo?
 
