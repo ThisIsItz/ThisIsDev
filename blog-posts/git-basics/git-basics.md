@@ -1,9 +1,9 @@
 ---
-published: false
+published: true
 title: "Git basics"
 cover_image: "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/master/blog-posts/NAME-OF-YOUR-BLOG-POST/assets/your-asset.png"
 description: ""
-tags: git
+tags: git, begginers, tutorial
 series:
 canonical_url:
 ---
