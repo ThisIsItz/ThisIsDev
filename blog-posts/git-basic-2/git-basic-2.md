@@ -25,7 +25,7 @@ The default branch name in git is master, but you can change the name using
 git branch -m new-name
 ```
 
-You can use the next command to list all the available branches.
+You can use the next command to list all the available branches, and also to known in which branch you are working on
 
 ```
 git branch
@@ -49,9 +49,29 @@ git merge my-branch
 Using this you were merging "my-branch" branch into the current branch.
 If the two branches you try to merge both have change the same part of the code, Git won't be able to know which version to keep and he will stop the merge, asking you to resolve the conflict manually. You can also use a tool to do this.
 
+
 ## Git on remote
 
 Git works really fine on local, but it also works on remote. Remote state is another repository, is a version of your project that is hosted on the internet. It is really helpful when we are working on a team, and more persons are working on the same project. There are some repository hosting services like [Github](https://github.com) or [Bitbucked](https://bitbucket.org/) in which you can store a remote repository, so you can manage your remote repository easily.
+
+
+## Saving your projects in remote
+
+To add your project, you have to create the remote repository in one of the platforms mentioned (github, bitbucked...) to get an URL. Once you have this, you need to go to the terminal, make sure you are in your project and use the following command
+
+```
+git remote add origin https://user/repo.git 
+```
+
+'User' is your username in git, and 'repo' is the name of your remote repository. If you want to check which remote your project is you can use
+
+```
+git remote -v
+```
+
+This command will return the name of the remote URL where your project is.
+
+
 
 ## How can I save my changes in the remote repository?
 
@@ -61,12 +81,15 @@ You need to push them. Using the next command
 git push origin master
 ```
 
-Origin refers to the remote origin, and master refers to the branch which where I want to push changes.
+Origin refers to the remote origin, and master refers to the branch where I want to push changes.
 You can also use git pull to get the changes from the remote repository to your working directory.
 
 ```
 git pull origin master
 ```
+
+It's recommended that you use git pull before git push to avoid conflicts.
+
 
 ## Can I use remote repositories from anyone else?
 
