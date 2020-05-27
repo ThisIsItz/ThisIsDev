@@ -60,10 +60,12 @@ Git works really fine on local, but it also works on remote. Remote state is ano
 To add your project, you have to create the remote repository in one of the platforms mentioned (github, bitbucked...) to get an URL. Once you have this, you need to go to the terminal, make sure you are in your project and use the following command
 
 ```
-git remote add origin https://user/repo.git 
+git remote add origin https://github.com/user/repo.git 
 ```
 
-'User' is your username in git, and 'repo' is the name of your remote repository. If you want to check which remote your project is you can use
+This URL is an example URL where 'User' is your username in git, and 'repo' is the name of your remote repository. If you want to know which remote URL should you use check this [link](https://help.github.com/en/github/using-git/which-remote-url-should-i-use).
+
+You can also check in which remote your project is using the next command
 
 ```
 git remote -v
