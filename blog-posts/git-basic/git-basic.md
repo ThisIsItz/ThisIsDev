@@ -105,6 +105,10 @@ git log --all --decorate --oneline --graph
 
 This one, in particular, draws a graphical representation in one line and it's very visual. Try it yourself!
 
+# I want to know more
+
+In this post are the basics about git, but there is more to learn, like branches, merge, and other things. You can visit [this post](URL) to keep learning more about git.
+
 # Found a typo?
 
 If you've found a typo, a sentence that could be improved or anything else that should be updated on this blog post, you can access it through a git repository and make a pull request. Instead of posting a comment, please go directly to [my git repository](https://github.com/ThisIsItz/ThisIsDev) and open a new pull request with your changes.
