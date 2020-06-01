@@ -63,7 +63,7 @@ To add your project, you have to create the remote repository in one of the plat
 git remote add origin https://github.com/user/repo.git 
 ```
 
-This URL is an example URL where 'User' is your username in git, and 'repo' is the name of your remote repository. If you want to know which remote URL should you use check this [link](https://help.github.com/en/github/using-git/which-remote-url-should-i-use).
+This URL is a github example URL where 'User' is your username in git, and 'repo' is the name of your remote repository. If you want to know which remote URL should you use if you are using github check this [link](https://help.github.com/en/github/using-git/which-remote-url-should-i-use). 
 
 You can also check in which remote your project is using the next command
 
